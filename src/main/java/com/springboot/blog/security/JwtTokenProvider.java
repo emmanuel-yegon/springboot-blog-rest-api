@@ -15,10 +15,9 @@ public class JwtTokenProvider {
     private int jwtExpirationInMs;
 
     // generate token
-    public  String generateToken(Authentication authentication){
-        String username = authentication.getName();
-        Date currentDate = new Date();
-        Date expireDate = new Date(currentDate.getTime() + jwtExpirationInMs)
-        String token = 
-    }
+//    public  String generateToken(Authentication authentication){
+//        String username = authentication.getName();
+//        Date currentDate = new Date();
+//        Date expireDate = new Date(currentDate.getTime() + jwtExpirationInMs
+//    }
 }
